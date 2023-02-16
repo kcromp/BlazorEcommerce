@@ -14,19 +14,19 @@
                 {
                     Id = 1, 
                     Name = "Books", 
-                    URL = "books"
+                    Url = "books"
                 },
                 new Category
                 {
                     Id = 2,
                     Name = "Movies",
-                    URL = "movies"
+                    Url = "movies"
                 },
                 new Category
                 {
                     Id = 3,
                     Name = "Video Games",
-                    URL = "video-games"
+                    Url = "video-games"
                 }
             );
             modelBuilder.Entity<Product>().HasData(
